@@ -1,0 +1,6 @@
+Python files inlcluded 
+
+Dataset creation
+Preprocessing
+Training 
+Classification
