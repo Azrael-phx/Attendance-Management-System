@@ -1,0 +1,103 @@
+{% extends '../Base.html' %}
+
+{% block content %}
+{% load static %}   
+    
+    <style>
+        body {
+            background: darkcyan no-repeat center center fixed;
+            background-size: cover;
+        }
+    </style>
+      <div class="col-lg-12" style="background: rgba(0,0,0,0.6);margin-top:3em;margin-bottom:5em;padding-top:1em;padding-bottom:3em;color:#fff;border-radius:10px;-webkit-box-shadow: 2px 2px 15px 0px rgba(0, 3, 0, 0.7);
+        -moz-box-shadow:    2px 2px 15px 0px rgba(0, 3, 0, 0.7);
+        box-shadow:         2px 2px 15px 0px rgba(0, 3, 0, 0.7);">
+
+            <div class="col-sm-12">
+                <h1 class="text-center section-title" style="margin-bottom:2em">Attendance System Using Face Recognition.</h1>
+            </div>
+            <style>
+                h4 {
+                    margin-bottom: 1.5em;
+                    padding-top: 30px;
+                }
+                
+                img {
+                    border-radius: 50%;
+                    -webkit-transition: all 0.3s ease-in-out;
+                    -moz-transition: all 0.3s ease-in-out;
+                    transition: all 0.3s ease-in-out;
+                }
+                
+                img:hover {
+                    -webkit-box-shadow: 2px 2px 21px 0px rgba(0, 3, 0, 0.91);
+                    -moz-box-shadow: 2px 2px 21px 0px rgba(0, 3, 0, 0.91);
+                    box-shadow: 2px 2px 21px 0px rgba(0, 3, 0, 0.91);
+                    border: 2px solid #fff;
+                }
+                
+                h3 {
+                    margin-bottom: 1.3em;
+                }
+                
+                a {
+                    color: inherit
+                }
+                
+                a:hover {
+                    color: inherit;
+                    text-decoration: none;
+                }
+            </style>
+
+            <div class="col-lg-12" style="padding-top: 100px;">
+                {% if messages %} {% for message in messages%}
+                <div class="alert alert-{{message.tags}}"> {{message}}
+                </div>
+                {%endfor %} {%endif%}
+            </div>
+
+
+            <div class="row">
+
+                
+                <div class="col-md-3" style="padding-left: 70px;" >
+                    <a href='/Contact'><img src="https://icon-library.com/images/96e3cd989c.svg.svg" class="img-responsive" style="width: 155px; height: 155px;" /></a> 
+                </div>
+                <div class="col-md-2" style="padding-left: 20px;" >
+                    <a href='/Home'><img src="https://www.kindpng.com/picc/m/130-1300429_user-male-add-icon-icon-hd-png-download.png" class="img-responsive" style="width:150px; height: 155px;" /></a>
+                </div>
+                
+                <div class="col-md-2" style="padding-left: 20px;" >
+                    <a href='/processing'><img src="https://cdn-icons-png.flaticon.com/512/1925/1925166.png" class="img-responsive"style="width: 155px; height: 155px;" /></a>
+                </div>
+                <div class="col-md-2" style="padding-left: 70px;" >
+                    <a href='/Train'><img src="https://cdn.vox-cdn.com/thumbor/HxXFamLdZYoE_SKNDQxJ64Oqz5k=/0x0:2040x1360/1200x800/filters:focal(857x517:1183x843)/cdn.vox-cdn.com/uploads/chorus_image/image/66910133/acastro_180730_1777_facial_recognition_0001.0.jpg" class="img-responsive"style="width: 155px; height: 155px;" /></a>
+                </div>
+                <div class="col-md-2" style="padding-left: 70px;" >
+                    <a href='/recognition'><img src="https://cdn-icons-png.flaticon.com/512/1461/1461141.png" class="img-responsive" style="width: 155px; height: 155px;" /></a>
+                </div>
+
+            </div>
+
+            <div class="row">
+                <div class="col md-2" style="padding-left: 40px">
+                    <h4 class="text-center ">Register Yourself</h4>
+                    
+                </div>
+                <div class="col md-2" style="padding-left: 100px">
+                    <h4 class="text-center "> Adding New Data </h4>
+                </div>
+                <div class="col md-2" style="padding-left: 100px">
+                    <h4 class="text-center ">PreProcessing </h4>
+                </div>
+                <div class="col md-2" style="padding-left: 90px; padding-right: 90px">
+                    <h4 class="text-center ">Train </h4>
+                </div>
+                <div class="col md-2" style="padding-left: 70px; padding-right: 90px">
+                    <h4 class="text-center ">Recognition </h4>
+                </div>
+            </div>
+
+      </div>
+{% endblock %}

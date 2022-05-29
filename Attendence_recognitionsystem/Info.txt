@@ -1,0 +1,4 @@
+Attendance Recognition system - Project level
+attendnancesystem - Web App {Application Level}
+
+Virtual Environment contains all the necessary Installations for the web app

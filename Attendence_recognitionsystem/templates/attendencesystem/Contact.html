@@ -1,0 +1,122 @@
+{% extends '../Base.html' %}
+
+{% block content %}
+
+    <div >
+        <br>
+        <div class="card"><div class="card-header"><h4 mt-2 >User Registration</h4></div></div>
+        
+        <br><br>
+        <form class="row g-3" method="post">
+
+            {% csrf_token %}
+
+           <!-- Input mail -->
+            <div class="col-md-6"> 
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" name="email">
+            </div>
+            <!-- Input Password -->
+            
+            <div class="col-md-6">
+              <label for="inputPassword4" class="form-label">Password</label>
+              <input type="password" class="form-control" name="inputPassword4">
+            </div>
+            
+            <!-- Input Address -->
+            <div class="col-12">
+              <label for="inputAddress" class="form-label">Address</label>
+              <input type="text" class="form-control" name="inputAddress" placeholder="1234 Main St">
+            </div>
+            
+            <!-- Input City -->
+            <div class="col-md-6">
+              <label for="inputCity" class="form-label">City</label>
+              <input type="text" class="form-control" name="inputCity">
+            </div>
+            <!-- Input State -->
+            <div class="col-md-4">
+              <label for="inputState" class="form-label">State</label>
+              <select name="inputState" class="form-select">
+                
+                <option selected>Choose...</option>
+                <option value="MP">Madhya Pradesh</option>
+                <option value="UP">Uttar Pradesh</option>
+                <option value="Rajasthan">Rajasthan</option>
+                <option value="Maharashtra">Maharashtra</option>
+                <option value="Goa">Goa</option>
+                
+              </select>
+            </div>
+            <div class="col-md-2">
+              <label for="inputZip" class="form-label">Zip</label>
+              <input type="text" class="form-control" name="inputZip">
+            </div>
+            <br>
+            <div class="col-12">
+              <button type="submit" class="btn btn-primary">Sign in</button>
+            </div>
+          </form>
+
+
+    </div>
+    
+    <br>
+      <footer class="bd-footer py-2 py-md-2 mt-3 bg-light">
+        <div class="container py-4 py-md-4 px-4 px-md-3">
+          <div class="row">
+            <div class="col-lg-3 mb-3">
+              <a class="d-inline-flex align-items-center mb-2 link-dark text-decoration-none">
+                
+                <span class="fs-5">LISCENCE</span>
+              </a>
+              <ul class="list-unstyled small text-muted">
+                <li class="mb-2">Designed and built with all the love in the world by Me.</li>
+                <li class="mb-2">Sneha Gupta</li>
+                <li class="mb-2">Currently Beta d.1.0</li>
+              </ul>
+            </div>
+            <div class="col-6 col-lg-2 offset-lg-1 mb-3">
+              <h5>Links</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="/">Home</a></li>
+                <li class="mb-2"><a href="/About">About US</a></li>
+                <li class="mb-2"><a href="https://www.linkedin.com/in/sneha-gupta-162a38200/">LinkedIn</a></li>
+                
+              </ul>
+            </div>
+            
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Technologies</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2">Bootstrap 5</li>
+                <li class="mb-2">Django</li>
+                <li class="mb-2">Python</li>
+                <li class="mb-2">Html</li>
+                <li class="mb-2">CSS</li>
+              </ul>
+            </div>
+            
+            <div class="col-6 col-lg-2 mb-3">
+              <h5>Github</h5>
+              <ul class="list-unstyled">
+                <li class="mb-2"><a href="https://github.com/Azrael-phx">Github Profile</a></li>
+                
+              </ul>
+            </div>
+
+            <div class="col-6 col-lg-2 mb-3">
+                <h5>About US</h5>
+                <ul class="list-unstyled">
+                  <li class="mb-2">Student</li>
+                  <li class="mb-2">Shri Vaishnav Vidyapeeth Vishwavidyalaya</li>
+                  <li class="mb-2">Indore, Madhya Pradesh</li>
+                  <li><a href="https://www.svvv.edu.in/">Official Site</a></li>
+                </ul>
+              </div>
+
+          </div>
+        </div>
+      </footer>
+
+{% endblock %}
