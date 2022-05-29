@@ -64,6 +64,7 @@ Following functionalities can be performed by the employee:
 ![Screenshot (117)](https://user-images.githubusercontent.com/76546723/170868036-9e3923cc-8066-4c35-9e54-a74d751b35e6.png)
 ![Screenshot (118)](https://user-images.githubusercontent.com/76546723/170868042-83d7b0d5-3b19-46e7-ba2f-d7b75dab50e1.png)
 ![Screenshot (120)](https://user-images.githubusercontent.com/76546723/170868048-01f5220f-f60a-4ea1-b32a-c1be0e27d72a.png)
+![Screenshot (125)](https://user-images.githubusercontent.com/76546723/170868356-4177d9f3-1ecd-4df7-970b-59b223d02514.png)
 ![Screenshot (121)](https://user-images.githubusercontent.com/76546723/170868056-0c652321-9449-48f0-b5bb-c3fe9877ffdf.png)
 ![Screenshot (74)](https://user-images.githubusercontent.com/76546723/170868067-088556e7-dda8-430e-9878-c83a5159662d.png)
 ![Screenshot (75)](https://user-images.githubusercontent.com/76546723/170868070-b16bd57c-a1ef-48cb-a183-36f47d840fc9.png)
