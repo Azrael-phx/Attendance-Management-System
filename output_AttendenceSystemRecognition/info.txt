@@ -1,2 +1,0 @@
-embeddings.pickle file pehle se hi ouptput_attendenceSysytemRecognition wale folder mei honi chahiye
-code run krne ke baad fir baaki do files apne aap aajaengi
